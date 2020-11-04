@@ -44,7 +44,7 @@ data class Employers(
 data class Executions(
     val idExec: Int? = null,
     val status: Boolean? = null,
-    val execDate: DateTime? = null,
+    val execDate: String? = null,
     val idComposition: Int? = null
 )
 
@@ -56,8 +56,8 @@ data class ExecutionEmployers(
 
 data class OptionPrices(
     val idPrice: Int? = null,
-    val dateStart: DateTime? = null,
-    val dateEnd: DateTime? = null,
+    val dateStart: String? = null,
+    val dateEnd: String? = null,
     val price: Float? = null,
     val idOption: Int? = null
 )
@@ -72,7 +72,7 @@ data class Participant(
 data class Payments(
     val idPay: Int? = null,
     val size: Float? = null,
-    val payDate: DateTime? = null,
+    val payDate: String? = null,
     val idContract: Int? = null
 )
 
