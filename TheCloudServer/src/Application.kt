@@ -37,13 +37,13 @@ fun Application.module(testing: Boolean = false) {
         get("/queries/3") { call.respond(theCloudController.getTypeSign()) }
         get("/queries/4") { call.respond(theCloudController.getPostDate()) }
         get("/queries/5") { call.respond(theCloudController.getIOSDev()) }
-        get("/queries/6") { call.respond(theCloudController.getStatusСust()) }
+        get("/queries/6") { call.respond(theCloudController.getStatusCustomer()) }
         get("/queries/7") { call.respond(theCloudController.getVsSize()) }
         get("/queries/8") { call.respond(theCloudController.getPart()) }
-        get("/queries/9") { call.respond(theCloudController.getCustSign()) }
-        get("/queries/10") { call.respond(theCloudController.getAll()) }
-        get("/queries/11") { call.respond(theCloudController.getAll()) }
-        get("/queries/12") { call.respond(theCloudController.getAll()) }
+        get("/queries/9") { call.respond(theCloudController.getCustomerSign()) }
+        get("/queries/10") { call.respond(theCloudController.getDateSign()) }
+        get("/queries/11") { call.respond(theCloudController.getExecEmail()) }
+        get("/queries/12") { call.respond(theCloudController.getEmployersName()) }
 
         get("/") {
             call.respondText("HELLO THERE!", contentType = ContentType.Text.Plain)

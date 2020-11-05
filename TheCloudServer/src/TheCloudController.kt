@@ -1,6 +1,7 @@
 package com.example
 
 import org.jetbrains.exposed.sql.*
+import org.jetbrains.exposed.sql.jodatime.date
 import org.jetbrains.exposed.sql.transactions.transaction
 import org.joda.time.DateTime
 import kotlin.collections.ArrayList
@@ -171,7 +172,7 @@ class TheCloudController {
         return Triple(employer, position, execution)
     }
 
-    fun getStatusСust(): Pair<ArrayList<Customers>, ArrayList<Executions>> {
+    fun getStatusCustomer(): Pair<ArrayList<Customers>, ArrayList<Executions>> {
         val customer: ArrayList<Customers> = arrayListOf()
         val execution: ArrayList<Executions> = arrayListOf()
         transaction {
@@ -240,7 +241,7 @@ class TheCloudController {
         return Pair(participant, execution)
     }
 
-    fun getCustSign(): Triple<ArrayList<Customers>, ArrayList<Addresses>, ArrayList<SignatureContracts>> {
+    fun getCustomerSign(): Triple<ArrayList<Customers>, ArrayList<Addresses>, ArrayList<SignatureContracts>> {
         val address: ArrayList<Addresses> = arrayListOf()
         val customer: ArrayList<Customers> = arrayListOf()
         val signatureContract: ArrayList<SignatureContracts> = arrayListOf()
@@ -270,5 +271,79 @@ class TheCloudController {
         return Triple(customer, address, signatureContract)
     }
 
+    fun getDateSign(): Pair<ArrayList<Participant>, ArrayList<SignatureContracts>> {
+        val participant: ArrayList<Participant> = arrayListOf()
+        val signatureContract: ArrayList<SignatureContracts> = arrayListOf()
+
+        transaction {
+            (Contract.leftJoin(Participants).leftJoin(Signature_Contract)
+                    ).slice(Participants.name, Signature_Contract.typeSign, Signature_Contract.dateSign)
+                .select { Participants.name.like("Fast%") }.forEach() {
+                    participant.add(
+                        Participant(
+                            name = it[Participants.name]
+                        )
+                    )
+                    signatureContract.add(
+                        SignatureContracts(
+                            typeSign = it[Signature_Contract.typeSign],
+                            dateSign = it[Signature_Contract.dateSign].toString("dd-MM-yyyy")
+                        )
+                    )
+                }
+        }
+        return Pair(participant,signatureContract)
+    }
+
+    fun getExecEmail(): Pair< ArrayList<Customers>, ArrayList<Executions>> {
+        val customer: ArrayList<Customers> = arrayListOf()
+        val execution: ArrayList<Executions> = arrayListOf()
+
+        transaction {
+            (Customer.leftJoin(Request).leftJoin(Composition_Contract).leftJoin(Execution)
+                    ).slice(Customer.email, Customer.FIO, Execution.status)
+                .select { Execution.status.eq(true) }.forEach() {
+                    customer.add(
+                        Customers(
+                            email = it[Customer.email],
+                            FIO = it[Customer.FIO]
+                        )
+                    )
+                    execution.add(
+                        Executions(
+                            status = it[Execution.status]
+                        )
+                    )
+                }
+        }
+        return Pair(customer, execution)
+    }
+
+    fun getEmployersName(): Pair< ArrayList<Customers>, ArrayList<Employers>,> {
+        val customer: ArrayList<Customers> = arrayListOf()
+        val employer: ArrayList<Employers> = arrayListOf()
+        val executionEmployer: ArrayList<ExecutionEmployers> = arrayListOf()
+
+        transaction {
+            (Customer.leftJoin(Request).leftJoin(Composition_Contract).leftJoin(Execution)
+                .leftJoin(Execution_Employer).leftJoin(Employer)
+                    ).slice(Customer.FIO,Customer.idCust, Employer.name)
+                .select { Customer.idCust.between(1,3) }.forEach() {
+                    customer.add(
+                        Customers(
+                            FIO = it[Customer.FIO],
+                            idCustomer = it[Customer.idCust]
+                        )
+                    )
+                    employer.add(
+                        Employers(
+                            name = it[Employer.name]
+                        )
+                    )
+
+                }
+        }
+        return Pair(customer, employer)
+    }
 
 }
