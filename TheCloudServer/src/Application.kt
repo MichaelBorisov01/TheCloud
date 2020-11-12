@@ -1,17 +1,17 @@
 package com.example
 
-import com.fasterxml.jackson.databind.SerializationFeature
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource
 import io.ktor.application.*
 import io.ktor.features.*
 import io.ktor.http.*
-import io.ktor.jackson.*
+import io.ktor.gson.*
 import io.ktor.request.*
 import io.ktor.response.*
 import io.ktor.routing.*
 import org.jetbrains.exposed.sql.Database
 import java.io.PrintWriter
+import java.text.DateFormat
 import java.util.*
 
 
@@ -21,17 +21,16 @@ fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 @kotlin.jvm.JvmOverloads
 fun Application.module(testing: Boolean = false) {
     val theCloudController = TheCloudController()
-    initDB()
+    initDB("a1640Z89")
     install(ContentNegotiation) {
-        jackson {
-            enable(SerializationFeature.INDENT_OUTPUT)
+        gson {
+            //setDateFormat(DateFormat.SHORT)
+            setPrettyPrinting()
         }
     }
 
     routing {
-
         get("/all") { call.respond(theCloudController.getAll()) }
-
         get("/queries/1") { call.respond(theCloudController.getAddressName()) }
         get("/queries/2") { call.respond(theCloudController.getPaymentCustomer()) }
         get("/queries/3") { call.respond(theCloudController.getTypeSign()) }
@@ -44,25 +43,15 @@ fun Application.module(testing: Boolean = false) {
         get("/queries/10") { call.respond(theCloudController.getDateSign()) }
         get("/queries/11") { call.respond(theCloudController.getExecEmail()) }
         get("/queries/12") { call.respond(theCloudController.getEmployersName()) }
-
-        get("/") {
-            call.respondText("HELLO THERE!", contentType = ContentType.Text.Plain)
-        }
-
-        get("/json/jackson") {
-            call.respond(mapOf("hello" to "world"))
-        }
     }
 }
 
-
-fun initDB() {
+fun initDB(password : String) {
     val props = Properties()
     props.setProperty("dataSourceClassName", "org.postgresql.ds.PGSimpleDataSource")
     props.setProperty("dataSource.user", "postgres")
-    props.setProperty("dataSource.password", "a1640Z89")
+    props.setProperty("dataSource.password", password)
     props.setProperty("dataSource.databaseName", "TheCloud")
-
     props["dataSource.logWriter"] = PrintWriter(System.out)
 
     val config = HikariConfig(props)

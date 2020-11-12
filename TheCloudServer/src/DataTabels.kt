@@ -96,3 +96,7 @@ data class VirtualServers(
     val idVS: Int? = null,
     val idRequest: Int? = null
 )
+
+data class Count(
+    val count: Int? = null
+)
