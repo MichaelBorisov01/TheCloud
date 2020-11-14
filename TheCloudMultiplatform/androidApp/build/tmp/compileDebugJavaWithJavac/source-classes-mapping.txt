@@ -1,0 +1,2 @@
+ru/rsue/borisov/thecloudmultiplatform/androidApp/BuildConfig.java
+ ru.rsue.borisov.thecloudmultiplatform.androidApp.BuildConfig

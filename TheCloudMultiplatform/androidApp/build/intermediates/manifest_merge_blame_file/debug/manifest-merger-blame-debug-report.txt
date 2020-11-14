@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.rsue.borisov.thecloudmultiplatform.androidApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:7:5-21:19
+14        android:allowBackup="false"
+14-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:8:9-36
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\1a219e333074ec0c385de7c32b34e6e7\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:supportsRtl="true"
+18-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:9:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme"
+20-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:11:9-40
+21        android:usesCleartextTraffic="true" >
+21-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:12:9-44
+22        <activity android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.MainActivity" >
+22-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:14:9-20:20
+22-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:14:19-47
+23            <intent-filter>
+23-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:15:13-19:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:16:17-69
+24-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:16:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:18:17-77
+26-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\androidApp\src\main\AndroidManifest.xml:18:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>
