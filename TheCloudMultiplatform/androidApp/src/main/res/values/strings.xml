@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_cpu">Процессор</string>
+    <string name="button_memory">Память</string>
+    <string name="button_hdd">Диск</string>
+    <string name="button_canal">Канал</string>
+    <string name="tv_head">TheCloud.ru</string>
+</resources>
