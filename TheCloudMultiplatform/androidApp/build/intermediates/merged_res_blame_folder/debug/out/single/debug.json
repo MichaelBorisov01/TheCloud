@@ -1,6 +1,14 @@
 [
     {
-        "merged": "D:\\Study\\AndroidStudioProjects\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Study\\AndroidStudioProjects\\TheCloudMultiplatform\\androidApp\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_options.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\src\\main\\res\\layout\\activity_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_registration.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\src\\main\\res\\layout\\registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\src\\main\\res\\layout\\login.xml"
     }
 ]

@@ -6,8 +6,8 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+8-->C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+9-->C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
 10
 11</manifest>

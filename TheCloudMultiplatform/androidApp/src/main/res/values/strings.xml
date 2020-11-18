@@ -5,4 +5,28 @@
     <string name="button_hdd">Диск</string>
     <string name="button_canal">Канал</string>
     <string name="tv_head">TheCloud.ru</string>
+    <string name="extra_options">Дополнительные опции</string>
+
+    <string name="ex_internet_canal">Гарантированный канал связи в интернет</string>
+    <string name="ex_server_encryption">Шифрование сервера</string>
+    <string name="ex_add_IP4_address">Дополнительный IP4 адрес</string>
+    <string name="ex_win_rights">Windows Rights Management Services CAL</string>
+    <string name="ex_remote_desktop">Удалённый рабочий стол</string>
+    <string name="ex_citrix_XenApp">Публикация приложения Citrix XenApp</string>
+    <string name="ex_office_standart">Office Standard ALNG LicSAPk MVL SAL Corporate Standard</string>
+    <string name="ex_office_prof">Office Professional Plus ALNG LicSAPk MVL SAL Corporate Standard</string>
+
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="authorization">Авторизация</string>
+    <string name="registration">Регистрация</string>
+
+    <string name="surname">Фамилия</string>
+    <string name="phone">Телефон</string>
+    <string name="email">Email</string>
+    <string name="password_confirmation">Подтверждение пароля</string>
+
+    <string name="button_registration">Зарегистрироваться</string>
+    <string name="button_log_in">Войти</string>
+
 </resources>

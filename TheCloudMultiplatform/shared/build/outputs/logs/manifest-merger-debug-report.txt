@@ -1,37 +1,37 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
+ADDED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
 	package
-		ADDED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:70-125
-		INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
-		INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:70-125
+		INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
-		ADDED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
-		INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
+		INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
-		ADDED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
-		INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:1-127
+		INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml:2:11-69
 uses-sdk
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
-INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
-		ADDED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
-		INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
-		ADDED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
-		INJECTED from D:\Study\AndroidStudioProjects\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\User\Desktop\TheCloud\TheCloudMultiplatform\shared\src\androidMain\AndroidManifest.xml

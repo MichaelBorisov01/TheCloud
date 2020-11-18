@@ -5,117 +5,251 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center|left">
+    android:gravity="center|left"
+    tools:ignore="RtlHardcoded">
 
 
-    <EditText
-        android:id="@+id/etnCPU"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="24dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/etnMemory"
-        app:layout_constraintStart_toEndOf="@+id/tv_cpu" />
-
-    <EditText
-        android:id="@+id/etnMemory"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginBottom="48dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/etnHDD"
-        app:layout_constraintStart_toEndOf="@+id/tv_memory" />
-
-    <EditText
-        android:id="@+id/etnHDD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginBottom="60dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/etnCanal"
-        app:layout_constraintStart_toEndOf="@+id/tv_hdd" />
-
-    <TextView
-        android:id="@+id/tv_memory"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginBottom="68dp"
-        android:text="@string/button_memory"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_hdd"
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/tv_cpu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="90dp"
-        android:layout_marginBottom="50dp"
-        android:text="@string/button_cpu"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_memory"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0">
 
-    <TextView
-        android:id="@+id/tv_canal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginBottom="308dp"
-        android:text="@string/button_canal"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
-        app:layout_constraintStart_toStartOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="1000dp"
+            android:orientation="vertical"
+            android:rotation="0"
+            android:rotationX="0"
+            tools:layout_editor_absoluteY="1dp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
-        android:text="@string/tv_head"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <EditText
+                android:id="@+id/etnCanal"
 
-    <TextView
-        android:id="@+id/tv_hdd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginBottom="68dp"
-        android:text="@string/button_hdd"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_canal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.029"
-        app:layout_constraintStart_toStartOf="parent" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="4dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etnHDD"
+                tools:ignore="LabelFor" />
 
-    <EditText
-        android:id="@+id/etnCanal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginBottom="284dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_canal" />
+            <TextView
+                android:id="@+id/tv_hdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="48dp"
+                android:gravity="center"
+                android:text="@string/button_hdd"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_memory" />
+
+            <CheckBox
+                android:id="@+id/checkBox_extra_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="188dp"
+                android:layout_marginBottom="536dp"
+                android:text="@string/extra_options"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_canal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="52dp"
+                android:text="@string/button_canal"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_hdd" />
+
+            <TextView
+                android:id="@+id/tvHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="36dp"
+                android:text="@string/tv_head"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_cpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="112dp"
+                android:text="@string/button_cpu"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="44dp"
+                android:text="@string/button_memory"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_cpu" />
+
+            <EditText
+                android:id="@+id/etnHDD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="4dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etnMemory"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/etnMemory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="4dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etnCPU"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/etnCPU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="4dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="LabelFor" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/Constraint_ex_options"
+                android:layout_width="387dp"
+                android:layout_height="476dp"
+                android:layout_marginTop="12dp"
+                android:minHeight="1000dp"
+                android:orientation="vertical"
+                android:rotation="0"
+                android:rotationX="0"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox_extra_options">
+
+
+                <CheckBox
+                    android:id="@+id/checkBox_ex_internet_canal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="@string/ex_internet_canal"
+                    app:layout_constraintBottom_toTopOf="@+id/checkBox_ex_server_encryption"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/checkBox_ex_win_rights"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="@string/ex_win_rights"
+                    app:layout_constraintBottom_toTopOf="@+id/checkBox_ex_remote_desktop"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_ex_add_IP4_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="@string/ex_add_IP4_address"
+                    app:layout_constraintBottom_toTopOf="@+id/checkBox_ex_win_rights"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_ex_office_prof"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="114dp"
+                    android:text="@string/ex_office_prof"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_ex_office_standart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="@string/ex_office_standart"
+                    app:layout_constraintBottom_toTopOf="@+id/checkBox_ex_office_prof"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_ex_remote_desktop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="@string/ex_remote_desktop"
+                    app:layout_constraintBottom_toTopOf="@+id/checkBox_ex_citrix_XenApp"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_ex_server_encryption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="@string/ex_server_encryption"
+                    app:layout_constraintBottom_toTopOf="@+id/checkBox_ex_add_IP4_address"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_ex_citrix_XenApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="@string/ex_citrix_XenApp"
+                    app:layout_constraintBottom_toTopOf="@+id/checkBox_ex_office_standart"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

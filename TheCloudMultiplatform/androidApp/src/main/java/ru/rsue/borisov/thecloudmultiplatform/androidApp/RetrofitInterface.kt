@@ -1,10 +1,9 @@
 package ru.rsue.borisov.thecloudmultiplatform.androidApp
 
+import com.example.Accounts
 import com.example.SignatureContracts
 import retrofit2.Call
-import retrofit2.http.GET
-import retrofit2.http.Query
-import retrofit2.http.QueryMap
+import retrofit2.http.*
 
 interface RetrofitInterface {
     @GET("all")
@@ -16,4 +15,7 @@ interface RetrofitInterface {
 
     @GET("all")
     fun getPosts(@QueryMap parameters: MutableMap<String, String>): Call<List<SignatureContracts>>
+
+    @POST("all")
+    fun createPost(@Body registration : Accounts) : Call<Accounts>
 }

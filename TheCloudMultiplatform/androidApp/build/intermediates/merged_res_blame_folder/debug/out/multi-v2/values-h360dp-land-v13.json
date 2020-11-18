@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Study\\AndroidStudioProjects\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+            "outputFile": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\48df1bd29d2ee75cff7946cbeeac5e95\\material-1.2.1\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
