@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="ru.rsue.borisov.thecloudmultiplatform.androidApp">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -7,14 +8,15 @@
     <application
         android:allowBackup="false"
         android:supportsRtl="true"
-
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        tools:targetApi="donut">
+
+
         <activity
             android:name=".Registration"
-            android:label="@string/registration">
-        </activity>
-        <activity android:name=".MainActivity">
+            android:label="@string/registration" />
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

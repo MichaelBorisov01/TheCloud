@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\48df1bd29d2ee75cff7946cbeeac5e95\\material-1.2.1\\res\\values-night-v8\\values-night-v8.xml",

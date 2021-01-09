@@ -1,22 +1,30 @@
 [
     {
-        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_options.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\src\\main\\res\\layout\\activity_options.xml"
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_login.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout-sw600dp\\login.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_tablet_registration.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\src\\main\\res\\layout\\tablet_registration.xml"
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_options.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout-sw600dp\\options.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_tablet_login.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\src\\main\\res\\layout\\tablet_login.xml"
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout\\login.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_registration.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\src\\main\\res\\layout\\registration.xml"
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_registration.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout-sw600dp\\registration.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\TheCloud\\TheCloudMultiplatform\\androidApp\\src\\main\\res\\layout\\login.xml"
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_registration.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout\\registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_options.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout\\options.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout-land_login.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout-land\\login.xml"
     }
 ]

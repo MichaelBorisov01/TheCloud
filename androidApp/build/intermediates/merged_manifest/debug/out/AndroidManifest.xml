@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -21,9 +21,8 @@
         android:usesCleartextTraffic="true" >
         <activity
             android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.Registration"
-            android:label="@string/registration" >
-        </activity>
-        <activity android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.MainActivity" >
+            android:label="@string/registration" />
+        <activity android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

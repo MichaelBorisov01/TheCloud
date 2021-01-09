@@ -8,6 +8,6 @@ import retrofit2.http.POST
 interface GraphQLService {
 
     @Headers("Content-Type: application/json")
-    @POST("/story")
-    suspend fun postDynamicQuery(@Body body: String): Response<String>
+    @POST("/registration")
+    suspend fun insert(@Body body: String): Response<String>
 }
