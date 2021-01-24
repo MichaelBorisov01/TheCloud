@@ -8,15 +8,16 @@
     <application
         android:allowBackup="false"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true"
         tools:targetApi="donut">
-
-
         <activity
-            android:name=".Registration"
+            android:name=".OptionsActivity"
+            android:label="@string/options" />
+        <activity
+            android:name=".RegistrationActivity"
             android:label="@string/registration" />
-        <activity android:name=".Login">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -9,9 +9,17 @@
     <string name="rb_linux">OS Linux 10GD HDD</string>
     <string name="rb_win">OS Windows 60GB HDD</string>
 
-    <string name="tv_max_cpu">макс. - 16</string>
-    <string name="tv_max_memory">макс. - 64</string>
-    <string name="tv_max_hdd">макс. - 1000</string>
+    <string name="tv_max_cpu">макс. - 16 CPU</string>
+    <string name="tv_max_memory">макс. - 64 GB</string>
+    <string name="tv_max_hdd">макс. - 1000 GB</string>
+
+    <string name="tv_max_ex_internet_canal">1–100 Мбит/с</string>
+    <string name="tv_max_ex_add_IP4_address">1–10 шт.</string>
+    <string name="tv_max_ex_win_rights">1–150 пользователей</string>
+    <string name="tv_max_ex_remote_desktop">1–150 пользователей</string>
+    <string name="tv_max_ex_citrix_XenApp">1–150 пользователей</string>
+    <string name="tv_max_ex_office_standart">1–150 лицензий</string>
+    <string name="tv_max_ex_office_prof">1–150 лицензий</string>
 
     <string name="tv_cpu">Процессор</string>
     <string name="tv_memory">Память</string>
@@ -36,11 +44,21 @@
     <string name="password">Пароль</string>
     <string name="authorization">Авторизация</string>
     <string name="registration">Регистрация</string>
+    <string name="options">Опции</string>
+
 
     <string name="surname">Фамилия</string>
+    <string name="fio">ФИО</string>
+    <string name="city">Город</string>
+    <string name="address">Адресс</string>
+    <string name="organization">Организация</string>
     <string name="phone">Телефон</string>
     <string name="email">Email</string>
     <string name="password_confirmation">Подтверждение пароля</string>
+    <string name="password_old">Старый пароль</string>
+    <string name="password_new">Новый пароль</string>
+    <string name="password_change">Подтверждение пароля</string>
+    <string name="save">Сохранить изменения</string>
 
     <string name="button_registration">Зарегистрироваться</string>
     <string name="button_log_in">Войти</string>
@@ -49,15 +67,6 @@
     <string name="tv_rub">руб.</string>
 
 
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
+
 
 </resources>

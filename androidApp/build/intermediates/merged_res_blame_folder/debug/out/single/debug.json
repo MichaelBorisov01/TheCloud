@@ -4,6 +4,10 @@
         "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout-sw600dp\\login.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-land_login.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout-sw600dp-land\\login.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_options.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout-sw600dp\\options.xml"
     },
@@ -16,8 +20,16 @@
         "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout-sw600dp\\registration.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-land_registration.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout-sw600dp-land\\registration.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_registration.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout\\registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-land_options.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\src\\main\\res\\layout-sw600dp-land\\options.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\TheCloud\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_options.xml.flat",

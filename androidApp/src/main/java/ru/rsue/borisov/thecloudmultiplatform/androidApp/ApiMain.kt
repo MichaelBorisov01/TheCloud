@@ -9,5 +9,9 @@ interface GraphQLService {
 
     @Headers("Content-Type: application/json")
     @POST("/registration")
-    suspend fun insert(@Body body: String): Response<String>
+    suspend fun insertReg(@Body body: String): Response<String>
+
+    @Headers("Content-Type: application/json")
+    @POST("/login")
+    suspend fun getLog(@Body body: String): Response<String>
 }

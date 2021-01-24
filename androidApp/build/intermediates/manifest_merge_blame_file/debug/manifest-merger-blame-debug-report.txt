@@ -15,7 +15,7 @@
 11-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:8:5-26:19
+13-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:8:5-27:19
 14        android:allowBackup="false"
 14-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:9:9-36
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -25,30 +25,36 @@
 18        android:supportsRtl="true"
 18-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
-20        android:theme="@style/AppTheme"
-20-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:11:9-40
+20        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+20-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:11:9-65
 21        android:usesCleartextTraffic="true" >
 21-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:12:9-44
 22        <activity
-22-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:16:9-18:52
-23            android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.Registration"
-23-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:17:13-41
-24            android:label="@string/registration" />
-24-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:18:13-49
-25        <activity android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.Login" >
-25-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:19:9-25:20
-25-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:19:19-40
-26            <intent-filter>
-26-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:20:13-24:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:21:17-69
-27-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:21:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:23:17-77
-29-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:23:27-74
-30            </intent-filter>
-31        </activity>
-32    </application>
-33
-34</manifest>
+22-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:14:9-16:47
+23            android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.OptionsActivity"
+23-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:15:13-44
+24            android:label="@string/options" />
+24-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:16:13-44
+25        <activity
+25-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:17:9-19:52
+26            android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.RegistrationActivity"
+26-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:18:13-49
+27            android:label="@string/registration" />
+27-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:19:13-49
+28        <activity android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.LoginActivity" >
+28-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:20:9-26:20
+28-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:20:19-48
+29            <intent-filter>
+29-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:21:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:22:17-69
+30-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:22:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:24:17-77
+32-->C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>

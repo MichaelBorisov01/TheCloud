@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [:shared] C:\Users\User\Desktop\TheCloud\shared\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f933ded73001bee9c2a3f6d830b7f592\lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ed5cffaf947fbf2d8ea44992861b6aed\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
@@ -39,22 +39,22 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\User\.gradle\c
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c63d45aede490d36fac545aad2626e5c\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\30e78deb9dfbdbc8a02069bc96be596e\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5ccd2ad9c1034038491ae7e20d8f64fe\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:4:5-63
 		INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml
-		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml
-		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:2:11-69
@@ -63,7 +63,7 @@ ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xm
 	android:name
 		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:8:5-26:19
+ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:8:5-27:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\48df1bd29d2ee75cff7946cbeeac5e95\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\48df1bd29d2ee75cff7946cbeeac5e95\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\6c7ddf57772559bc7cc0bdac22522dc8\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -81,29 +81,35 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Us
 	android:allowBackup
 		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:9:9-36
 	android:theme
-		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:11:9-65
 	android:usesCleartextTraffic
 		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:12:9-44
-activity#ru.rsue.borisov.thecloudmultiplatform.androidApp.Registration
-ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:16:9-18:52
+activity#ru.rsue.borisov.thecloudmultiplatform.androidApp.OptionsActivity
+ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:14:9-16:47
 	android:label
+		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:16:13-44
+	android:name
+		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:15:13-44
+activity#ru.rsue.borisov.thecloudmultiplatform.androidApp.RegistrationActivity
+ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:17:9-19:52
+	android:label
+		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:19:13-49
+	android:name
 		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:18:13-49
+activity#ru.rsue.borisov.thecloudmultiplatform.androidApp.LoginActivity
+ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:17:13-41
-activity#ru.rsue.borisov.thecloudmultiplatform.androidApp.Login
-ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:19:9-25:20
-	android:name
-		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:19:19-40
+		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:20:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\User\Desktop\TheCloud\androidApp\src\main\AndroidManifest.xml

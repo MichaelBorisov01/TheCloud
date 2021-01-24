@@ -17,12 +17,15 @@
         android:extractNativeLibs="false"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.Registration"
+            android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.OptionsActivity"
+            android:label="@string/options" />
+        <activity
+            android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.RegistrationActivity"
             android:label="@string/registration" />
-        <activity android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.Login" >
+        <activity android:name="ru.rsue.borisov.thecloudmultiplatform.androidApp.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
